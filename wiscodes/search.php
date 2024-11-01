@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
         <html lang="en">
         <head>
             <meta charset="UTF-8">
@@ -22,8 +22,8 @@
                 $searchQuery = htmlspecialchars($_GET['query']);
         
                 // Connect to the database
-                $servername = "isaac";
-                $username = "garcia"; // Replace with your database username
+                $servername = "localhost";
+                $username = "root"; // Replace with your database username
                 $password = ""; // Replace with your database password
                 $dbname = "search_db"; // The database we created earlier
         

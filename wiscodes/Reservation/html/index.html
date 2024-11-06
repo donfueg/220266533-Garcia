@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+</head>
+<body>
+    <h2>Make a Reservation</h2>
+    <form method="POST" action="../php/submit_reservation.php">
+        Name: <input type="text" name="name" required><br><br>
+        Email: <input type="email" name="email" required><br><br>
+        Phone: <input type="text" name="phone" required><br><br>
+        Date: <input type="date" name="date" required><br><br>
+        Time: <input type="time" name="time" required><br><br>
+        Number of Guests: <input type="number" name="guests" required><br><br>
+        <input type="submit" value="Submit Reservation">
+    </form>
+</body>
+</html>
